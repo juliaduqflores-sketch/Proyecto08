@@ -1,0 +1,137 @@
+@font-face {
+    font-family: "Raleway";
+    src: url("../font/Raleway-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: "monse";
+    src: url("../font/Montserrat-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: "yuyu";
+    src: url("../font/YuyuShort-Regular.ttf");
+}
+
+
+
+
+body {
+    font-family: "Raleway", sans-serif;
+}
+
+.logotipo {
+    width: 40px;
+    object-fit: contain;
+    color: #040329;
+}
+
+.nav-link {
+    font-family: "monse", sans-serif;
+    font-size: 14px;
+    color: #040329;
+}
+
+.nav-link:hover {
+    color: #00e1bb;
+}
+
+.primix {
+    color: #00e1bb;
+}
+
+.nombre {
+    font-family: "yuyu", sans-serif;
+    font-size: 30px;
+    color: #040329 !important;
+}
+
+#inicio .carousel-inner img {
+    height: 500px;       
+    object-fit: cover;
+} 
+
+
+#sobre-mi h2 {
+    font-family: "monse";
+    margin-bottom: 20px;
+    color: #00e1bb;
+}
+
+#sobre-mi p {
+    font-family: "monse";
+    color: #040329; 
+}
+
+#habilidades {
+    font-family: "monse";
+}
+
+#habilidades h2 {
+    font-family: "monse";
+    color: #00e1bb;
+    margin-bottom: 20px;
+}
+
+#habilidades h3 {
+    font-family: "Raleway";
+    font-size: 17px;       
+    color: #040329;       
+    font-weight: 200;      
+}
+
+#habilidades p {
+    font-family: "monse";
+    font-size: 18px;
+    color: #040329; 
+}
+
+#habilidades .progress-bar {
+    background-color: #00e1bb; 
+    font-size: 13px;
+}
+
+#multimedia {
+    font-family: "monse";
+}
+
+#multimedia h2 {
+    font-family: "monse";
+    color: #00e1bb;
+    margin-bottom: 20px;
+}
+
+#multimedia h3 {
+    font-family: "Raleway";
+    font-size: 17px;       
+    color: #040329;       
+    font-weight: 200;      
+}
+
+#multimedia p {
+    font-family: "monse";
+    font-size: 18px;
+    color: #040329; 
+}
+
+#contacto{
+     font-family: "monse";
+
+}
+
+#contacto h1{
+    font-family: "monse";
+    color: #00e1bb;
+    margin-bottom: 20px;
+}
+
+#mapa {
+    height:200px;
+    width: 1000px;    
+    border-radius: 10px;  
+}
+
+#contacto h1 {
+    font-family: "monse";
+    letter-spacing: 2px;
+}
